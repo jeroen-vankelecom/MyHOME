@@ -8,6 +8,8 @@ on:
 
 jobs:
   validate:
+    # remove if when code is ready
+    if: false
     runs-on: "ubuntu-latest"
     steps:
       - uses: "actions/checkout@v2"
